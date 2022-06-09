@@ -50,7 +50,7 @@ void OpenMP::EdgeDetection()
 
     std::cout << "OpenMP " << duration.count() << " miliseconds" << std::endl;
 
-    newImg.display();
+    //newImg.display();
 }
 
 
