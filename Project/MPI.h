@@ -13,7 +13,7 @@ class MPI
 public:
 	static void EdgeDetection(int argc, char* argv[]);
 private:
-	static void RGBToGrayScale(CImg<int>& img);
+	static void RGBToGrayScale(CImg<int>& img, int argc, char* argv[]);
 	static uint8_t GetValueForPixel(const CImg<int>& img, int x, int y);
 };
 

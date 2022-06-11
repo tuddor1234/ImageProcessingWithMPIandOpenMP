@@ -13,6 +13,7 @@ void OpenMP::EdgeDetection()
 
     auto start = high_resolution_clock::now();
     RGBToGrayScale(img);
+    
 
     int tid;
 #pragma omp parallel private(tid)  num_threads(8)
@@ -49,7 +50,7 @@ void OpenMP::EdgeDetection()
     auto duration = duration_cast<milliseconds>(stop - start);
 
     std::cout << "OpenMP " << duration.count() << " miliseconds" << std::endl;
-
+    newImg.save("OpenMP.bmp");
     //newImg.display();
 }
 

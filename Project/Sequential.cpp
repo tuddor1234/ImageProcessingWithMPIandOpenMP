@@ -41,7 +41,7 @@ void Sequential::EdgeDetection()
     auto duration = duration_cast<milliseconds>(stop - start);
 
     std::cout << "Sequential " << duration.count() << " miliseconds" << std::endl;
-    //newImg.display();
+    newImg.save("sequention.bmp");
 }
 
 const int KerX[3][3] =
