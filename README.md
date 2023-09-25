@@ -8,3 +8,9 @@ It has 3 implementations:
 
 Original Image:
 ![alt text](https://github.com/tuddor1234/ImageProcessingWithMPIandOpenMP/blob/master/Project/sample.bmp)
+
+Sequential Processing:
+![alt text](https://github.com/tuddor1234/ImageProcessingWithMPIandOpenMP/blob/master/Project/sequention.bmp)
+
+OpenMP Processing:
+![alt text](https://github.com/tuddor1234/ImageProcessingWithMPIandOpenMP/blob/master/Project/OpenMP.bmp)
