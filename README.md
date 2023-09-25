@@ -5,3 +5,6 @@ It has 3 implementations:
 - Sequential Algorithm
 - OpenMP parrallel approach
 - MPI parallel approach - still needs some work
+
+Original Image:
+![alt text](https://github.com/tuddor1234/ImageProcessingWithMPIandOpenMP/blob/master/Project/sample.bmp)
